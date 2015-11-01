@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC666CE61BD32F320082A710 /* doraemon stamp.png in Resources */ = {isa = PBXBuildFile; fileRef = FC666CE41BD32F320082A710 /* doraemon stamp.png */; };
+		FC666CE71BD32F320082A710 /* gudetama stamp.png in Resources */ = {isa = PBXBuildFile; fileRef = FC666CE51BD32F320082A710 /* gudetama stamp.png */; };
+		FC666CE91BD33A370082A710 /* nobita.png in Resources */ = {isa = PBXBuildFile; fileRef = FC666CE81BD33A370082A710 /* nobita.png */; };
+		FC8379E31BC0E95600AA2AE1 /* StampAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8379E21BC0E95600AA2AE1 /* StampAddViewController.swift */; };
+		FC8379E51BC10F0100AA2AE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8379E41BC10F0100AA2AE1 /* ViewController.swift */; };
+		FCA7DCD31B5224220007B260 /* StampSozai.zip in Resources */ = {isa = PBXBuildFile; fileRef = FCA7DCD21B5224220007B260 /* StampSozai.zip */; };
+		FCA7DCDA1B5224B10007B260 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA7DCD51B5224B10007B260 /* background.png */; };
+		FCA7DCDB1B5224B10007B260 /* hana.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA7DCD61B5224B10007B260 /* hana.png */; };
+		FCA7DCDC1B5224B10007B260 /* hoshi.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA7DCD71B5224B10007B260 /* hoshi.png */; };
+		FCA7DCDD1B5224B10007B260 /* onpu.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA7DCD81B5224B10007B260 /* onpu.png */; };
+		FCA7DCDE1B5224B10007B260 /* shitumon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCA7DCD91B5224B10007B260 /* shitumon.png */; };
+		FCAA2A0D1B520D91007DED04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAA2A0C1B520D91007DED04 /* AppDelegate.swift */; };
+		FCAA2A121B520D91007DED04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAA2A101B520D91007DED04 /* Main.storyboard */; };
+		FCAA2A141B520D91007DED04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCAA2A131B520D91007DED04 /* Images.xcassets */; };
+		FCAA2A171B520D91007DED04 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCAA2A151B520D91007DED04 /* LaunchScreen.xib */; };
+		FCAA2A231B520D91007DED04 /* stampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAA2A221B520D91007DED04 /* stampTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCAA2A1D1B520D91007DED04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCAA29FF1B520D91007DED04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCAA2A061B520D91007DED04;
+			remoteInfo = stamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC666CE41BD32F320082A710 /* doraemon stamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "doraemon stamp.png"; path = "../../doraemon stamp.png"; sourceTree = "<group>"; };
+		FC666CE51BD32F320082A710 /* gudetama stamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gudetama stamp.png"; path = "../../gudetama stamp.png"; sourceTree = "<group>"; };
+		FC666CE81BD33A370082A710 /* nobita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nobita.png; path = ../nobita.png; sourceTree = "<group>"; };
+		FC8379E21BC0E95600AA2AE1 /* StampAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StampAddViewController.swift; sourceTree = "<group>"; };
+		FC8379E41BC10F0100AA2AE1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCA7DCD21B5224220007B260 /* StampSozai.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = StampSozai.zip; sourceTree = "<group>"; };
+		FCA7DCD51B5224B10007B260 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		FCA7DCD61B5224B10007B260 /* hana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hana.png; sourceTree = "<group>"; };
+		FCA7DCD71B5224B10007B260 /* hoshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoshi.png; sourceTree = "<group>"; };
+		FCA7DCD81B5224B10007B260 /* onpu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onpu.png; sourceTree = "<group>"; };
+		FCA7DCD91B5224B10007B260 /* shitumon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shitumon.png; sourceTree = "<group>"; };
+		FCAA2A071B520D91007DED04 /* stamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAA2A0B1B520D91007DED04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAA2A0C1B520D91007DED04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCAA2A111B520D91007DED04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCAA2A131B520D91007DED04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FCAA2A161B520D91007DED04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FCAA2A1C1B520D91007DED04 /* stampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAA2A211B520D91007DED04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAA2A221B520D91007DED04 /* stampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stampTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCAA2A041B520D91007DED04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAA2A191B520D91007DED04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCA7DCD41B5224B10007B260 /* Stamp素材 */ = {
+			isa = PBXGroup;
+			children = (
+				FCA7DCD51B5224B10007B260 /* background.png */,
+				FC666CE51BD32F320082A710 /* gudetama stamp.png */,
+				FC666CE81BD33A370082A710 /* nobita.png */,
+				FCA7DCD61B5224B10007B260 /* hana.png */,
+				FCA7DCD71B5224B10007B260 /* hoshi.png */,
+				FC666CE41BD32F320082A710 /* doraemon stamp.png */,
+				FCA7DCD81B5224B10007B260 /* onpu.png */,
+				FCA7DCD91B5224B10007B260 /* shitumon.png */,
+			);
+			path = "Stamp素材";
+			sourceTree = "<group>";
+		};
+		FCAA29FE1B520D91007DED04 = {
+			isa = PBXGroup;
+			children = (
+				FCAA2A091B520D91007DED04 /* stamp */,
+				FCAA2A1F1B520D91007DED04 /* stampTests */,
+				FCAA2A081B520D91007DED04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCAA2A081B520D91007DED04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCAA2A071B520D91007DED04 /* stamp.app */,
+				FCAA2A1C1B520D91007DED04 /* stampTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCAA2A091B520D91007DED04 /* stamp */ = {
+			isa = PBXGroup;
+			children = (
+				FCAA2A0C1B520D91007DED04 /* AppDelegate.swift */,
+				FC8379E41BC10F0100AA2AE1 /* ViewController.swift */,
+				FCAA2A101B520D91007DED04 /* Main.storyboard */,
+				FCA7DCD21B5224220007B260 /* StampSozai.zip */,
+				FCA7DCD41B5224B10007B260 /* Stamp素材 */,
+				FCAA2A131B520D91007DED04 /* Images.xcassets */,
+				FCAA2A151B520D91007DED04 /* LaunchScreen.xib */,
+				FCAA2A0A1B520D91007DED04 /* Supporting Files */,
+				FC8379E21BC0E95600AA2AE1 /* StampAddViewController.swift */,
+			);
+			path = stamp;
+			sourceTree = "<group>";
+		};
+		FCAA2A0A1B520D91007DED04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCAA2A0B1B520D91007DED04 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCAA2A1F1B520D91007DED04 /* stampTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCAA2A221B520D91007DED04 /* stampTests.swift */,
+				FCAA2A201B520D91007DED04 /* Supporting Files */,
+			);
+			path = stampTests;
+			sourceTree = "<group>";
+		};
+		FCAA2A201B520D91007DED04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCAA2A211B520D91007DED04 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCAA2A061B520D91007DED04 /* stamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAA2A261B520D91007DED04 /* Build configuration list for PBXNativeTarget "stamp" */;
+			buildPhases = (
+				FCAA2A031B520D91007DED04 /* Sources */,
+				FCAA2A041B520D91007DED04 /* Frameworks */,
+				FCAA2A051B520D91007DED04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stamp;
+			productName = stamp;
+			productReference = FCAA2A071B520D91007DED04 /* stamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCAA2A1B1B520D91007DED04 /* stampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAA2A291B520D91007DED04 /* Build configuration list for PBXNativeTarget "stampTests" */;
+			buildPhases = (
+				FCAA2A181B520D91007DED04 /* Sources */,
+				FCAA2A191B520D91007DED04 /* Frameworks */,
+				FCAA2A1A1B520D91007DED04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCAA2A1E1B520D91007DED04 /* PBXTargetDependency */,
+			);
+			name = stampTests;
+			productName = stampTests;
+			productReference = FCAA2A1C1B520D91007DED04 /* stampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCAA29FF1B520D91007DED04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Tatsunori Ono";
+				TargetAttributes = {
+					FCAA2A061B520D91007DED04 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					FCAA2A1B1B520D91007DED04 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = FCAA2A061B520D91007DED04;
+					};
+				};
+			};
+			buildConfigurationList = FCAA2A021B520D91007DED04 /* Build configuration list for PBXProject "stamp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCAA29FE1B520D91007DED04;
+			productRefGroup = FCAA2A081B520D91007DED04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCAA2A061B520D91007DED04 /* stamp */,
+				FCAA2A1B1B520D91007DED04 /* stampTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCAA2A051B520D91007DED04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA7DCDE1B5224B10007B260 /* shitumon.png in Resources */,
+				FCAA2A121B520D91007DED04 /* Main.storyboard in Resources */,
+				FCA7DCDA1B5224B10007B260 /* background.png in Resources */,
+				FC666CE71BD32F320082A710 /* gudetama stamp.png in Resources */,
+				FCAA2A171B520D91007DED04 /* LaunchScreen.xib in Resources */,
+				FCA7DCDC1B5224B10007B260 /* hoshi.png in Resources */,
+				FC666CE61BD32F320082A710 /* doraemon stamp.png in Resources */,
+				FCA7DCD31B5224220007B260 /* StampSozai.zip in Resources */,
+				FCA7DCDD1B5224B10007B260 /* onpu.png in Resources */,
+				FCAA2A141B520D91007DED04 /* Images.xcassets in Resources */,
+				FC666CE91BD33A370082A710 /* nobita.png in Resources */,
+				FCA7DCDB1B5224B10007B260 /* hana.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAA2A1A1B520D91007DED04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCAA2A031B520D91007DED04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8379E51BC10F0100AA2AE1 /* ViewController.swift in Sources */,
+				FC8379E31BC0E95600AA2AE1 /* StampAddViewController.swift in Sources */,
+				FCAA2A0D1B520D91007DED04 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAA2A181B520D91007DED04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAA2A231B520D91007DED04 /* stampTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCAA2A1E1B520D91007DED04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCAA2A061B520D91007DED04 /* stamp */;
+			targetProxy = FCAA2A1D1B520D91007DED04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCAA2A101B520D91007DED04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAA2A111B520D91007DED04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCAA2A151B520D91007DED04 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAA2A161B520D91007DED04 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCAA2A241B520D91007DED04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCAA2A251B520D91007DED04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCAA2A271B520D91007DED04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = stamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCAA2A281B520D91007DED04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = stamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCAA2A2A1B520D91007DED04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = stampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stamp.app/stamp";
+			};
+			name = Debug;
+		};
+		FCAA2A2B1B520D91007DED04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = stampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stamp.app/stamp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCAA2A021B520D91007DED04 /* Build configuration list for PBXProject "stamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAA2A241B520D91007DED04 /* Debug */,
+				FCAA2A251B520D91007DED04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAA2A261B520D91007DED04 /* Build configuration list for PBXNativeTarget "stamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAA2A271B520D91007DED04 /* Debug */,
+				FCAA2A281B520D91007DED04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAA2A291B520D91007DED04 /* Build configuration list for PBXNativeTarget "stampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAA2A2A1B520D91007DED04 /* Debug */,
+				FCAA2A2B1B520D91007DED04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCAA29FF1B520D91007DED04 /* Project object */;
+}
